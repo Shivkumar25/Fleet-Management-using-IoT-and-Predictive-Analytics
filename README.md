@@ -1,7 +1,36 @@
 # A Framework for Fleet Management using IoT and Predictive Analytics
 
-The integration of IoT (Internet of Things) technology in vehicles has become increasingly imperative in today’s rapidly evolving automotive landscape. IoT empowers vehicles to become more intelligent, transforming them into interconnected nodes capable of real-time data exchange. This capability is essential for enhancing road safety, as IoT-enabled vehicles can communicate with one another. In an era of data-driven decision-making, IoT in vehicles is not just a convenience but a necessity for safer, more efficient, and environmentally responsible transportation. In cosmopolitan cities like Bengaluru, the city’s roads, once renowned for their tree-lined beauty, now find themselves choked with a relentless surge of vehicles. There is heavy traffic throughout the city with the air quality deteriorating in the city. Despite efforts to expand infrastructure and promote public transportation, Bengaluru’s traffic remains a formidable challenge. This work proposes a simple framework for an IoT enabled visualization and predictive analytics in the context of fleet management in Bengaluru’s scenario. This architecture could be further enhanced using various other sensors and machine learning models. This framework was implemented, simulated and analyzed using MATLAB and ThingSpeak application. You can find the complete research paper here: [Research Paper](https://ieeexplore.ieee.org/abstract/document/10724253)
+An IoT-based framework for real-time fleet visualization and predictive analytics, inspired by Bengaluru’s traffic challenges. The system uses MATLAB and ThingSpeak for data collection, simulation, and analysis. The architecture can be extended with additional sensors and machine learning models. 
+
+The full research paper can be accessed here:
+[Research Paper](https://ieeexplore.ieee.org/abstract/document/10724253)
+
+# Tools Used
+1. MATLAB
+
+    i) Automated Driving ToolBox
+
+    ii) Driving Scenario Designer
+
+2. ThingSpeak
 
 # Custom Track
+The Bengaluru Track Heavy Traffic Area was selected. The Google Map image of the track is shown below:
 
-![Track](GMAP_Track.png)
+![GMAP Track](GMAP_Track.png)
+
+The Bengaluru track was created using the Driving Scenario Designer which is shown below:
+
+![Driving Scenario Track](Driving_Scenario_Track.png)
+
+# Sensors Used
+1. RADAR Sensor
+2. Inertial Navigation System (INS) Sensor
+3. Humidity Sensor
+4. Air Quality Sensor
+
+# Flow Chart
+
+![Block Diagram](BlockDiagram.png)
+
+
